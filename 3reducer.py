@@ -6,7 +6,7 @@ Count = 0.0
 
 for line in s:
   data = line.strip().split('\t')
-  paymentType, amount = data
+  paymentType, Count = data
 
   if paymentType != Key:
     if Key:
